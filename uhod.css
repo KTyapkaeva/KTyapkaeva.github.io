@@ -1,0 +1,127 @@
+body{
+    font-family: 'Vollkorn', serif;
+    background-color: #e9e3db; 
+   }
+   
+a {
+    text-decoration: none;
+  }
+  a:link {
+    color: #000000; 
+
+  }
+  a:visited {
+    color: #000000;
+  }
+  a:active {
+      color:#c0a97a;
+  }
+header {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Vollkorn', serif;
+    text-transform: uppercase;
+border-radius: 8px;
+padding: 10px 10px 10px 10px;
+background-color: rgb(255, 255, 255);
+
+}
+
+ #mono-title{
+    text-decoration-line: underline;
+ }
+* {
+    box-sizing: border-box;
+    font-family: 'Vollkorn', serif;
+ }
+.main-title{
+    width: 100%;
+    margin: 0;
+    background: rgb(66, 66, 66);
+    color: white;
+    padding:20px 0 20px 0;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Vollkorn', serif;
+    text-transform: uppercase; 
+    text-decoration-line: underline;
+    text-decoration-color: #ffffff;
+}
+#uhod-pravila{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    border: 10px solid #c0a97a;
+}
+hr{
+    border-radius: 5px;
+    background-color: #c0a97a;
+    padding: 1px;
+    width: 450px;
+    margin: auto;
+    }
+
+ .step-wrap {
+    width: 500px;
+    height:400px;
+    margin: 20px auto;
+    background: rgb(255, 255, 255);
+    padding:25px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Vollkorn', serif;
+ }
+ 
+ #img-uhod {
+    width: 70px;
+    margin-bottom: 20px;
+ }
+ 
+ .step-title {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    margin: 10px;
+    padding: 5px;
+    font-size: 24px;
+    text-transform: uppercase;
+ }
+
+ footer {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Vollkorn', serif;
+    text-transform: uppercase;
+border-radius: 8px;
+padding: 10px 10px 10px 10px;
+background-color: rgb(177, 174, 170);  
+border: 2px solid #000000;
+ }
+ #footer{
+    font-family: 'Vollkorn', serif;   
+ }
+ .dropdown {
+   position: relative;
+   display: inline-block;
+  
+}
+
+.dropdown-content {
+   display: none;
+   position: absolute;
+   max-width:150px;
+   background-color: #f9f9f9;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 5;
+}
+
+.dropdown-content a {
+   color: black;
+   padding: 12px 12px;
+   text-decoration: none;
+   display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown:hover .dropdown-content {display: block;}

@@ -1,0 +1,167 @@
+body{
+    font-size: 20px;
+    background-color: #e9e3db; 
+   }
+header {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Vollkorn', serif;
+    text-transform: uppercase;
+border-radius: 8px;
+padding: 10px 10px 10px 10px;
+background-color: rgb(255, 255, 255);
+}
+a {
+    text-decoration: none;
+  }
+  a:link {
+    color: #000000; 
+
+  }
+  a:visited {
+    color: #000000;
+  }
+  a:active {
+      color:#c0a97a;
+  }
+*{
+    text-decoration: none;
+    font-family: 'Vollkorn', serif;
+    }
+.zakaz{
+        text-decoration-line: underline; }
+
+.formblock {
+    padding:20px;  
+}
+    button{
+    margin:0 20px 40px 20px;
+    padding:0 10px;
+    border: thin solid #92815f;
+    background-color:#c0a97a ;
+    font-size: 20px;
+    height:50px;
+    border-radius: 5px;
+    }
+    #form{
+    margin:40px 40px;
+    padding:10px 40px;
+    background-color: #ffffff;
+    text-align: left;
+    border: thin solid #c0a97a;
+    border-radius: 5px;
+    width: 50%;
+    display: inline-block;
+    }
+    
+    #textcity{
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+    }
+    
+    #textoption{
+    width: 250px;
+    height: 100px;
+    border-radius: 5px;
+    }
+    
+    #freetext{
+    margin:10px 10px 0 10px;
+    padding:10px;
+    width: 600px;
+    height: 100px;
+    border-radius: 5px;
+    }
+
+input{
+margin:10px;
+border-radius: 5px;
+height: 20px;
+}
+
+hr{
+border-radius: 5px;
+background-color: #c0a97a;
+padding: 1px;
+width: 670px;
+margin: auto;
+}
+
+#main{
+display: flex;
+}
+
+select{
+margin:10px;
+font-size:16px;
+font-family: 'Vollkorn', serif;
+}
+
+#photos{
+display: inline-block;
+}
+
+.oformlenie{
+text-align: center;
+vertical-align: middle;
+font-size: 30px;
+background-color: #e9e3db;
+padding:20px 0 20px 0;
+margin:20px 0 0 0;
+width:100%;
+border-radius:5px;
+text-transform: uppercase;
+border: thin solid #c0a97a;
+}
+
+#pic1{
+margin:40px;
+width: 500px;
+height: 550px;
+border: thin solid #c0a97a;
+border-radius: 5px;
+float: right;
+}
+
+#pic2{
+margin:40px;
+width: 500px;
+height: 550px;
+border: thin solid #c0a97a;
+border-radius: 5px;
+}
+footer {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Vollkorn', serif;
+    text-transform: uppercase;
+border-radius: 8px;
+padding: 10px 10px 10px 10px;
+background-color: rgb(177, 174, 170);  
+border: 2px solid #000000;
+ }
+ .dropdown {
+    position: relative;
+    display: inline-block;
+   
+ }
+ 
+ .dropdown-content {
+    display: none;
+    position: absolute;
+    max-width:150px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 5;
+ }
+ 
+ .dropdown-content a {
+    color: black;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+ }
+ 
+ .dropdown-content a:hover {background-color: #f1f1f1;}
+ .dropdown:hover .dropdown-content {display: block;}

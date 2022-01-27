@@ -1,0 +1,53 @@
+body{
+    font-family: 'Vollkorn', serif;
+    background-color: #e9e3db;  }
+   
+a {
+    text-decoration: none; }
+  a:link {
+    color: #000000;  }
+  a:visited {
+    color: #000000; }
+  a:active {
+      color:#c0a97a; }
+
+header {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(255, 255, 255);}
+
+.main-page{
+    text-decoration-line: underline; }
+
+* {
+    box-sizing: border-box;}
+
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+       
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        max-width:150px;
+        background-color: #f9f9f9;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+    
+    .dropdown-content a {
+        color: black;
+        padding: 12px 12px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown-content a:hover {background-color: #f1f1f1;}
+    .dropdown:hover .dropdown-content {display: block;}
+   
+    
